@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: #70c5ce;
+}
+
+h1 {
+  margin: 10px;
+  color: #fff;
+}
+
+#game-container {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid #000;
+  overflow: hidden;
+}
+
+#bird {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url('bird.png'); /* Replace with your bird image */
+  background-size: cover;
+  left: 50px;
+  top: 250px;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: #000;
+}
+
+#restart-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
